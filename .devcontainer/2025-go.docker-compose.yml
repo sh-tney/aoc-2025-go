@@ -1,0 +1,10 @@
+services:
+  2025-go:
+    build:
+      context: ../
+      dockerfile: .devcontainer/2025-go.Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ../:/aoc-2025-go
+    ports:
+      - "3000:3000"
