@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func v1() {
 
 	file, err := os.Open("input.txt")
 	if err != nil {

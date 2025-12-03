@@ -26,6 +26,7 @@ func v2() {
 			break
 		}
 
+		// Linearly count one step at a time to check all times hitting zero
 		for i := 0; i < magnitude; i++ {
 			if direction == 'L' {
 				position--
