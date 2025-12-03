@@ -6,5 +6,3 @@ services:
     restart: unless-stopped
     volumes:
       - ../:/aoc-2025-go
-    ports:
-      - "3000:3000"

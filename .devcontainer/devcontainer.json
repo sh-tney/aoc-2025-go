@@ -2,5 +2,12 @@
 	"name": "2025 GO",
 	"dockerComposeFile": "2025-go.docker-compose.yml",
 	"service": "2025-go",
-	"workspaceFolder": "/aoc-2025-go"
+	"workspaceFolder": "/aoc-2025-go",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go"
+			]
+		}
+	}
 }
