@@ -38,11 +38,7 @@ func v1() {
 			str += string(r[pos])
 		}
 
-<<<<<<< HEAD
-		// if column is empty, process current nums and reset
-=======
 		// if column is empty, skip
->>>>>>> 0809ee9 (day 6)
 		if strings.TrimSpace(str) == "" {
 			continue
 		} else {
